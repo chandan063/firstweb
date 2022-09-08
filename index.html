@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP Fitness centre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/index.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+
+    
+<style>
+       
+        body{
+            font-family: 'Baloo 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/wall.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:auto;
+            background-attachment: fixed;
+        }
+        .header{
+               background-attachment: fixed;
+        }
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 22px;
+            display: inline-block;
+            border:2px solid white;
+            border-style: none;
+            border-radius: 40px;
+            line-height: 40px;
+            font-size: x-large;
+            
+
+        }
+        .left img{
+            width: 204px;
+            /* filter :invert(20%);for changing black img to white and vice-versa; */
+            border-radius: 40px;
+            /* background-attachment: fixed; */
+        }
+        .left div{
+            text-align: center;
+            
+        }
+        .centre{
+            display: block;
+            /* border: 2px solid rebeccapurple; */
+            width: 47%;
+            margin: 50px auto;
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 21px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+
+        }
+        .btn{
+            
+            display: inline;
+            margin:0px 9px;
+            padding: 4px 18px;
+            border-radius: 4px;
+            font-size: large;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: yellow;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            color: white;
+            font-size: 25px;
+            font-style: italic;
+            
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            /* for giving underline to the nav bar we use text ecoration */
+            text-decoration:underline;
+             color:yellow;}/*we use this for color when we point our arrow then it will show the selected color */
+
+        .container{
+
+            border: 2px solid red;
+            margin: 33px 65px;
+            padding: 3px 27px 45px 27px;
+            width: 33%;
+            border-radius: 28px;
+            background-color: white;
+            color: black;
+
+        }  
+        .container h1{
+            text-align: center;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 333px;
+            padding: 4px;
+            border: 2px solid green;
+            border-radius: 8px;
+            margin: 5px auto;
+            
+
+        } 
+        .container button{
+            display: block;
+            width: 335px;
+            margin: 10px 85px -22px 85px;
+
+        }  
+        .container1{
+                border:2px solid white;
+                border-radius: 200px;
+                height: 183px;
+                margin: 73px 35px 30px 35px;
+                padding: 10px ;
+                background-image: url('img/backcolor.jpg');
+                background-size:cover;
+                background-repeat:no-repeat;
+        }  
+        .container1,img{
+            
+        }  
+        .container1,frameset,.new{
+             background-color: aliceblue;
+             margin: 20px 32px;
+             padding: 20px;
+        }
+        .container1 h1{
+            text-align:center;
+            text-decoration: underline;
+            font-size: 55px;
+            color: aqua;
+        } 
+        .work{
+            display: block;
+            /* border: 2px solid rebeccapurple; */
+            width: 47%;
+            margin:10px;
+        }
+        h2{
+            color:red;
+            text-align:justify;
+            font-size: 59px;
+            text-decoration:dotted;
+        }
+        .work ,.navbar2{
+            display: inline-block;
+            font-size: xx-large;
+
+        }
+        .navbar2 li{
+            /* display: inline-block; */
+            color:gold;
+            font-size: 45px;
+            /* font-style: italic; */
+            
+        }
+        .sizepara{
+            font-size: 30px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .footer1{
+            /* border: 2px solid red; */
+            height: 40px;
+            text-align: center;
+            color:white;
+            text-transform: capitalize;
+            margin:20px;
+            padding: 10px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+        <img src="img/weight.jpg" alt="" >
+        <div>
+          HP FITNESS
+        </div>
+
+        </div>
+        <!-- centre for navigation -->
+        <div class="centre">
+            <ul class="navbar">
+                <li><a href="home.html"  class="active" >HOME</a></li>
+                <li> <a href="gallery.html" target="_self">GALLERY</a></li>
+                <li><a href="fitness.html">FITNESS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+           <button class="btn">call us</button>
+           <button class="btn">Email us</button>
+
+        </div>
+    </header><p class="first"></p>    
+        <br><br><br>
+        <div class="container">
+            <h1>Join the best GYM in India</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                 <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                </div>
+                   <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+                   </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your loacality">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+
+
+
+
+        <div class="container1">
+            <!-- <img src="img/heavy weight.jpg" alt="error" width="650px" height="600px">
+           <img src="img/women fit.jpg" alt="error" width="650px" height="600px"><br> -->
+           <h1>Personal Training</h1>
+           <frameset>
+            <div class="new">
+                <img src="img/trainer.jpg" alt="error" width="650px" height="500px">
+                <img src="img/muscle man.avif" alt="error"width="650px" height="500px">
+            </div>
+           </frameset>
+            <h2>Fitness consists of</h2><br>
+            <pre class="sizepara"><strong>
+            You already know that benefits come when you prioritize physical activity. 
+            The trick is understanding what "fitness" is and how you can achieve it.
+            The key, of course, is consistency.
+            It may sound like a lot, but 150 minutes breaks down to just 20 to 30 
+            minutes of exercise daily,five to seven days a week.</strong> </pre>
+            <div class="work">
+            <ul class="navbar2">
+                <li>AB WORKOUT</li>
+                <li>ARM WORKOUT</li>
+                <li>BUTT WORKOUT</li>
+                <li>CARDIO WORKOUT</li>
+                <li>FITNESS GEAR</li>
+                <li>LEG WORKOUT</li>
+                <li>STRENGTH TRAINING</li>
+                <li>YOGA</li>
+            </ul></div>
+            <!-- <img src="img/trainer.jpg" alt="error" width="200px" height="200px" > -->
+
+          <div class="footer1">
+            </p>
+              <footer>
+             <p>
+                <strong><i> THANKS FOR VISITING  &copy; @ VISIT AGAIN TO BE FIT</i></strong>
+            </p></div>
+        </div>
+    
+    </footer>
+</body>
+</html>
